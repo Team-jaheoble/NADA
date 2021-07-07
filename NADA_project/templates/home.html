@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="widdiv=device-widdiv, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/reset.css" />
+    <link rel="stylesheet" href="CSS/home.css" />
+    <title>메인페이지</title>
+  </head>
+  <body>
+    <div class="main">
+      <!--왼쪽-->
+      <div class="daily">
+        <div class="dailyHeader">
+          <button class="yesterdayBtn"><</button>
+          <div class="curDate">5월 15일 (금요일)</div>
+          <button class="tomorrowBtn">></button>
+        </div>
+        <button class="WriteBtn">오늘의 환경 기록하기</button>
+        <div class="dailyTree">여기에 나무</div>
+        <div class="point">현재 포인트 : 3000</div>
+        <button class="tipBtn">탄소배출방지Tip</button>
+      </div>
+
+      <!--오른쪽-->
+      <div class="monthly">
+        <div class="calendarHeader">
+          <h3 class="year">2022</h3>
+          <h2 class="month">05</h2>
+        </div>
+        <div class="calendarBody">
+          <div class="dayOfWeekRow">
+            <div class="dayOfWeek red">SUN</div>
+            <div class="dayOfWeek">MON</div>
+            <div class="dayOfWeek">TUE</div>
+            <div class="dayOfWeek">WED</div>
+            <div class="dayOfWeek">THU</div>
+            <div class="dayOfWeek">FRI</div>
+            <div class="dayOfWeek">SAT</div>
+          </div>
+          <div class="weekRow">
+            <div class="date red">1</div>
+            <div class="date">2</div>
+            <div class="date">3</div>
+            <div class="date">4</div>
+            <div class="date">5</div>
+            <div class="date">6</div>
+            <div class="date">7</div>
+          </div>
+          <div class="weekRow">
+            <div class="date red">8</div>
+            <div class="date">9</div>
+            <div class="date">10</div>
+            <div class="date">11</div>
+            <div class="date">12</div>
+            <div class="date">13</div>
+            <div class="date">14</div>
+          </div>
+          <div class="weekRow">
+            <div class="date red">15</div>
+            <div class="date">16</div>
+            <div class="date">17</div>
+            <div class="date">18</div>
+            <div class="date">19</div>
+            <div class="date">20</div>
+            <div class="date">21</div>
+          </div>
+          <div class="weekRow">
+            <div class="date red">22</div>
+            <div class="date">23</div>
+            <div class="date">24</div>
+            <div class="date">25</div>
+            <div class="date">26</div>
+            <div class="date">27</div>
+            <div class="date">28</div>
+          </div>
+          <div class="weekRow">
+            <div class="date red">29</div>
+            <div class="date">30</div>
+            <div class="date">31</div>
+            <div class="date"></div>
+            <div class="date"></div>
+            <div class="date"></div>
+            <div class="date"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--모달에 대한 컴포넌트-->
+    <div class="modal" style="display: none">
+      <div class="modalBox">
+        <button class="exitBtn">X</button>
+        <div class="modalContent">
+          <div class="plusPoints">
+            <h3>오늘의 잘한일!</h3>
+            <div class="plusBtns">
+              <button class="plusBtn">1</button>
+              <button class="plusBtn">2</button>
+              <button class="plusBtn">3</button>
+              <button class="plusBtn">4</button>
+              <button class="plusBtn">5</button>
+              <button class="plusBtn">6</button>
+            </div>
+          </div>
+
+          <div class="minusPoints">
+            <h3>오늘의 반성할 일ㅠ</h3>
+            <div class="minusBtns">
+              <button class="minusBtn">1</button>
+              <button class="minusBtn">2</button>
+              <button class="minusBtn">3</button>
+              <button class="minusBtn">4</button>
+              <button class="minusBtn">5</button>
+              <button class="minusBtn">6</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--모달에 대한 컴포넌트-->
+    <div class="modal">
+      <div class="modalBox">
+        <button class="exitBtn">X</button>
+        <div class="modalContent">
+          <h3>00월 00일</h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

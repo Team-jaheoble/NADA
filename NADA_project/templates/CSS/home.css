@@ -1,0 +1,166 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  min-width: 1024px;
+  min-height: 768px;
+  position: relative;
+}
+
+.main {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 50px 0;
+  display: flex;
+}
+
+.daily {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  border-right: solid 1px lightgreen;
+}
+
+.dailyHeader {
+  display: flex;
+  align-items: center;
+}
+
+.curDate {
+  font-size: 24px;
+  margin: 0 20px;
+}
+
+.WriteBtn {
+  margin-top: 30px;
+}
+
+.dailyTree {
+  margin-top: 30px;
+  border: solid 1px lightgreen;
+  width: 70%;
+  height: 60%;
+}
+
+.point {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.tipBtn {
+  margin-top: 10px;
+}
+
+.monthly {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+}
+
+.calendarHeader {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.year {
+  font-size: 24px;
+}
+.month {
+  font-size: 30px;
+}
+
+.calendarBody {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 90%;
+  height: 75%;
+}
+
+.dayOfWeekRow {
+  display: flex;
+  height: 70%;
+}
+
+.dayOfWeek {
+  width: 100%;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weekRow {
+  display: flex;
+  height: 100%;
+}
+
+.date {
+  width: 100%;
+  padding: 10px;
+}
+
+.red {
+  color: red;
+}
+
+.modal {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalBox {
+  position: relative;
+  background-color: white;
+  width: 800px;
+  height: 600px;
+  padding-top: 40px;
+}
+
+.exitBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.modalContent {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  overflow: auto;
+}
+
+.plusBtns {
+  margin-top: 15px;
+}
+
+.plusBtn {
+  width: 350px;
+  height: 60px;
+  margin: 5px;
+}
+
+.minusPoints {
+  margin-top: 30px;
+}
+.minusBtns {
+  margin-top: 15px;
+}
+
+.minusBtn {
+  width: 350px;
+  height: 60px;
+  margin: 5px;
+}
